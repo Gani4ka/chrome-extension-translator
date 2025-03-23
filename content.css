@@ -1,0 +1,36 @@
+#translate-container {
+  position: absolute;
+  z-index: 10000;
+}
+
+#translate-btn {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#translate-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#translate-tooltip {
+  display: none;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  white-space: nowrap;
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 370px;
+}
